@@ -1,0 +1,33 @@
+[workspace]
+members = [
+  "sdk",
+  "spec",
+  "xtask"
+]
+resolver = "2"
+
+[workspace.dependencies]
+ovh-sdk = { path = "sdk" }
+ovh-spec = { path = "spec" }
+reqwest = { version = "0.11", features = ["json"] }
+bytes = "1.6.1"
+camino = "1.1.7"
+dropshot = "0.10.1"
+serde_json = "1.0.120"
+tokio = { version = "1.38.1", features = ["full"] }
+oauth2 = "4.4.2"
+serde = { version = "1.0.204", features = ["derive"] }
+toml = "0.8.14"
+dirs = "5.0.1"
+thiserror = "1.0.61"
+schemars = { version = "0.8.21", features = ["chrono", "uuid", "uuid1"] }
+progenitor-client = "0.7.0"
+url = "2.5.0"
+uuid = { version = "1.10.0", features = ["serde", "v4"] }
+chrono = { version = "0.4.38", features = ["serde"] }
+clap = { version = "4.5.6", features = ["derive"] }
+regex = "1.10.5"
+newline-converter = "0.3.0"
+progenitor = "0.7.0"
+rustfmt-wrapper = "0.2.1"
+similar = "2.5.0"

@@ -1,0 +1,18 @@
+[package]
+name = "ovh-sdk"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+oauth2 = { workspace = true }
+reqwest = { workspace = true }
+serde = { workspace = true }
+toml = { workspace = true }
+dirs = { workspace = true }
+thiserror = { workspace = true }
+schemars = { workspace = true }
+progenitor-client = { workspace = true }
+tokio = { workspace = true }
+url = { workspace = true }
+uuid = { workspace = true }
+chrono = { workspace = true }
